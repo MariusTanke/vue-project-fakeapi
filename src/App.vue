@@ -1,8 +1,8 @@
 <template>
   <div>
     <div id="nav">
-      <router-link to="/">Lista de contactos</router-link> |
-      <router-link to="/about">Añadir contactos</router-link>
+      <router-link to="/tabla">Lista de contactos</router-link> |
+      <router-link to="/agregar">Añadir contactos</router-link>
     </div>
     <router-view />
   </div>
