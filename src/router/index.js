@@ -4,12 +4,12 @@ import agregar from "@/views/agregar.vue";
 
 const routes = [
   {
-    path: "/",
+    path: "/tabla",
     name: "tabla",
     component: tabla,
   },
   {
-    path: "/about",
+    path: "/agregar",
     name: "agregar",
     component: agregar,
   },
